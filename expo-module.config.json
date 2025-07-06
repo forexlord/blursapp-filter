@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["FilterModule"]
+  },
+  "android": {
+    "modules": ["com.blursapp.filtermodule.FilterModule"]
+  }
+}

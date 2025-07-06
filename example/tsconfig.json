@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "blursapp-filter": ["../src/index"],
+      "blursapp-filter/*": ["../src/*"]
+    }
+  }
+}
