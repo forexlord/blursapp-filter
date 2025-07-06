@@ -1,0 +1,2 @@
+include ':opencv'
+project(':opencv').projectDir = new File(rootDir, '../external-libs/opencv')
