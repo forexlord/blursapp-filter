@@ -6,7 +6,9 @@ version = '0.1.0'
 def expoModulesCorePlugin = new File(project(":expo-modules-core").projectDir.absolutePath, "ExpoModulesCorePlugin.gradle")
 apply from: expoModulesCorePlugin
 applyKotlinExpoModulesCorePlugin()
-useCoreDependencies()
+useCoreDependencies {
+    implementation project(':opencv')
+}
 useExpoPublishing()
 
 // If you want to use the managed Android SDK versions from expo-modules-core, set this to true.

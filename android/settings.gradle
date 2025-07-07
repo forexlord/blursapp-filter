@@ -1,2 +1,2 @@
 include ':opencv'
-project(':opencv').projectDir = new File(rootDir, '../external-libs/opencv')
+project(':opencv').projectDir = new File(rootDir, '../external-libs/OpenCV-android-sdk/sdk')
